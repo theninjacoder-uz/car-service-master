@@ -53,7 +53,7 @@ function Row(props) {
         // console.log("props: ", props);
         const data = {time, master, serviceName:  props.service, dateStr: props.date, phoneNumber: localStorage.getItem("phoneNumber")};
        console.log(data);
-        axios.post("http://localhost:8080/api/v1/order", data).then(response => {
+        axios.post("http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/order", data).then(response => {
             if(response.status === 200){
                 console.log(response.data);
                 localStorage.setItem("pngSrc", response.data.data);
@@ -99,7 +99,7 @@ export default function CustomDay(props) {
         const arr = value.toString().split(" ");
         const date = arr[3] + "-06-" + arr[2];
         // axios.post(`http://localhost:8080/api/v1/work?id=${props.masterId}&date=${date}`)
-        axios.get(`http://localhost:8080/api/v1/work?id=1&date=${date}`)
+        axios.get(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/work?id=1&date=${date}`)
             .then((res) => {
                 console.log("rows", res.data.data);
                 setRows(res.data.data);

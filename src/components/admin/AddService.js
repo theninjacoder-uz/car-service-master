@@ -16,7 +16,7 @@ const AddService = ({toggle, isOpen}) => {
 
     function handleSubmit() {
 
-        axios.post("http://localhost:8080/api/v1/speciality", data).then((res) => {
+        axios.post("http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/speciality", data).then((res) => {
             console.log(res)
             toggle()
             clearInput()

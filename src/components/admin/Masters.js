@@ -39,7 +39,7 @@ export default function Masters() {
     }
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/api/v1/master`).then(res => {
+        axios.get(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/master`).then(res => {
             if (res.data.statusCode === 200) {
                 generateRows(res.data.data);
                 setData(res.data.data);
@@ -48,7 +48,7 @@ export default function Masters() {
     }, [])
 
     function generateTable() {
-        axios.get(`http://localhost:8080/api/v1/master`).then(res => {
+        axios.get(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/master`).then(res => {
             if (res.data.statusCode === 200) {
                 generateRows(res.data.data);
                 setData(res.data.data);
@@ -59,10 +59,10 @@ export default function Masters() {
 
     // 1 = true, -1 = false, 0 = nothing
     function deleteCourse(id) {
-        axios.delete(`http://localhost:8080/api/v1/master/${id}`).then((res) => {
+        axios.delete(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/master/${id}`).then((res) => {
             if (res.status === 200) {
                 alert("Deleted")
-                axios.get(`http://localhost:8080/api/v1/master`).then(res => {
+                axios.get(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/master`).then(res => {
                     if (res.data.statusCode === 200) {
                         generateRows(res.data.data);
                         setData(res.data.data);

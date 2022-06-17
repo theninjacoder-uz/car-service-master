@@ -51,7 +51,7 @@ export default function Authentication() {
     const handleLogin = () => {
         setOpen(false);
         authData.password = values.password;
-        axios.post('http://localhost:8080/api/v1/auth/register', authData).then(res => {
+        axios.post('http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/auth/register', authData).then(res => {
             console.log(res);
             // if(res.status === 200)
             // localStorage.setItem("code", res.data.smsCode);

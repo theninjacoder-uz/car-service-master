@@ -28,7 +28,7 @@ export default function Users() {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/api/v1/user`).then(res => {
+        axios.get(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/user`).then(res => {
             if(res.data.statusCode === 200)
                 generateRows(res.data.data);
         })

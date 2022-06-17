@@ -28,7 +28,7 @@ export default function Orders() {
 
 
     useEffect(() => {
-        axios.get(`http://localhost:8080/api/v1/order`).then(res => {
+        axios.get(`http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/order`).then(res => {
             if(res.data.statusCode === 200)
              generateRows(res.data.data);
         })

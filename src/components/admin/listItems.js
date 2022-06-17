@@ -1,4 +1,5 @@
 import * as React from 'react';
+import {useNavigate} from 'react-router-dom';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
@@ -6,10 +7,16 @@ import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
 import CameraFrontSharpIcon from '@mui/icons-material/CameraFrontSharp';
 import MiscellaneousServicesIcon from '@mui/icons-material/MiscellaneousServices';
+import LogoutIcon from '@mui/icons-material/Logout';
 
 
 const MainListItems = ({state, handleState}) =>
 {
+    const navigation = useNavigate();
+
+    function handleLogout(){
+        navigation("/login");
+    }
 
     return (
         <React.Fragment>
@@ -36,6 +43,12 @@ const MainListItems = ({state, handleState}) =>
                     <MiscellaneousServicesIcon/>
                 </ListItemIcon>
                 <ListItemText primary="Servislar"/>
+            </ListItemButton>
+            <ListItemButton selected={state[2]} onClick={() => handleState(2)}>
+                <ListItemIcon>
+                    <LogoutIcon/>
+                </ListItemIcon>
+                <ListItemText primary="Logout" onClick={handleLogout}/>
             </ListItemButton>
         </React.Fragment>);
 };

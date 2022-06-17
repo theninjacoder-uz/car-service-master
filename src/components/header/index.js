@@ -42,7 +42,7 @@ const Header = () => {
                             <div ref={menuBtn} className="main-menu ">
                                 <nav className="nav_mobile_menu">
                                     <ul>
-                                        <li className="active"><Link onClick={ClickHandler} to="/">Home</Link>
+                                        <li className="active"><Link onClick={ClickHandler} to="/home">Home</Link>
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">About</Link></li>
                                         <li><Link onClick={ClickHandler} to="/services">Service</Link>
@@ -67,6 +67,7 @@ const Header = () => {
                                         </li>
 
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
+                                        <li><Link to="/login">Logout</Link></li>
                                     </ul>
                                 </nav>
                             </div>

@@ -117,7 +117,7 @@ export default function CollapsibleTable() {
     const [rows, setRows] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:8080/api/v1/speciality').then(res => {
+        axios.get('http://carservice-env.eba-7atumkwd.us-east-1.elasticbeanstalk.com/api/v1/speciality').then(res => {
             if (res.status === 200) {
                 console.log(res.data);
                 setRows(createData(res.data.data));

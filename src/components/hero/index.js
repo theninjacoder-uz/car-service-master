@@ -10,8 +10,8 @@ class SimpleSlider extends Component {
       return (
         <section className="hero hero-static-image">
             <div className="container">
-                <div className="row">
-                    <div className="col col-lg-6 col-md-7 slide-caption">
+                <div className="row flex-row">
+                    <div className="col-12 pt-md-5 pt-5 mt-5 mt-md-0 col-lg-6 col-md-7 slide-caption">
                         <div className="slide-title">
                             <h2>Xavfsizligingizni Ta'minlaymiz<span>& Baxtli Sayohat</span></h2>
                         </div>
@@ -22,7 +22,7 @@ class SimpleSlider extends Component {
                             <Link to="/contact" className="theme-btn-s2">Biz bilan bog'lanish</Link>
                         </div>
                     </div>
-                    <div className="hero-image"></div>
+                    <div className="hero-image col-12"></div>
                 </div>
             </div>
         </section>

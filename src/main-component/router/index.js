@@ -32,8 +32,8 @@ const AllRoute = () => {
               <Route path='/' element={<AuthPage/>} />
               <Route path='/login' element={<AuthPage/>} />
               <Route path='/home' element={<Homepage/>} />
-              <Route path='/home2' element={<Homepage2/>} />
-              <Route path='/home3' element={<Homepage3/>} />
+              {/* <Route path='/home2' element={<Homepage2/>} />
+              <Route path='/home3' element={<Homepage3/>} /> */}
               <Route path='/about' element={<Aboutpage/>} />
               <Route path='/services' element={<ServicePage/>} />
               <Route path='/service-details' element={<ServiceDetails/>} />

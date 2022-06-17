@@ -14,7 +14,7 @@ const Pricing = (props) => {
   }
 
   return (
-    <div className="pricing-section">
+    <div className="pricing-section d-none d-md-block">
         <div className="container">
             <div className="col-12">
                 <div className="section-title-s2 text-center">

@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom'
 import './style.css'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import team_1 from '../../images/team/img-1.jpg';
-import team_2 from '../../images/team/img-2.jpg';
-import team_3 from '../../images/team/img-3.jpg';
-import team_4 from '../../images/team/img-4.jpg';
+import team_1 from '../../images/team/1.jpg';
+import team_2 from '../../images/team/2.jpg';
+import team_3 from '../../images/team/3.jpg';
+import team_4 from '../../images/team/4.jpg';
 
 class TeamSection extends Component {
     render() {
@@ -28,12 +28,12 @@ class TeamSection extends Component {
                                 <div className="hx-team-img">
                                     <img src={team_1} alt=""/>
                                     <div className="SocialIcons">
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-facebook"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-twitter"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-google-plus"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-facebook"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-twitter"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Nematov Shaxzod</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Shaxzod</Link></h3>
                                     </div>
                                 </div>
                             </div>
@@ -43,12 +43,12 @@ class TeamSection extends Component {
                                 <div className="hx-team-img">
                                     <img src={team_2} alt=""/>
                                     <div className="SocialIcons">
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-facebook"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-twitter"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-google-plus"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-facebook"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-twitter"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Shermatova Gulola</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Nemat</Link></h3>
                                     </div>
                                 </div>
                             </div>
@@ -58,12 +58,12 @@ class TeamSection extends Component {
                                 <div className="hx-team-img">
                                     <img src={team_3} alt=""/>
                                     <div className="SocialIcons">
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-facebook"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-twitter"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-google-plus"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-facebook"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-twitter"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Meliyev Baxtiyor</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Baxtiyor</Link></h3>
                                     </div>
                                 </div>
                             </div>
@@ -73,12 +73,12 @@ class TeamSection extends Component {
                                 <div className="hx-team-img">
                                     <img src={team_4} alt=""/>
                                     <div className="SocialIcons">
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-facebook"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-twitter"></i></Link>
-                                        <Link onClick={ClickHandler} to="/home"><i className="fa fa-google-plus"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-facebook"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-twitter"></i></Link>
+                                        <Link onClick={ClickHandler} to="/"><i className="fa fa-google-plus"></i></Link>
                                     </div>
                                     <div className="profileInfo">
-                                        <h3><Link onClick={ClickHandler} to="/team">Xoliqova Zilola</Link></h3>
+                                        <h3><Link onClick={ClickHandler} to="/team">Xoliq</Link></h3>
                                     </div>
                                 </div>
                             </div>

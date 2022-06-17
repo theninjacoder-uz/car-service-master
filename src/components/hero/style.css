@@ -161,6 +161,9 @@ background: url("../../images/slider/hero-shape-1.png") center center/100% no-re
   .hero-static-image,.hero-static-image-2,.hero-static-image-3 {
     height: 450px;
   }
+  .slide-subtitle{
+    width: 73% !important;
+  }
 }
 
 .hero-static-image .container,.hero-static-image-2 .container,.hero-static-image-3 .container {
@@ -200,8 +203,8 @@ background: url("../../images/slider/hero-shape-1.png") center center/100% no-re
 
 @media (max-width: 767px) {
   .hero-static-image h2,.hero-static-image-2 h2,.hero-static-image-3 h2 {
-    font-size: 30px;
-    font-size: 1.875rem;
+    /* font-size: 30px; */
+    /* font-size: 1.875rem; */
   }
 }
 
@@ -243,14 +246,35 @@ background: url("../../images/slider/hero-shape-1.png") center center/100% no-re
 
 @media (max-width: 991px) {
   .hero-static-image .hero-image,.hero-static-image-2 .hero-image-2,.hero-static-image-3 .hero-image-3 {
-    width: 300px;
-    height: 300px;
+    /* width: ;
+    height: auto; */
   }
 }
 
 @media (max-width: 767px) {
   .hero-static-image .hero-image,.hero-static-image-2  .hero-image-2,.hero-static-image-3  .hero-image-3 {
-    display: none;
+    transform: translateY(-50%);
+    right: 0;
+    position: relative;
+  }
+  .slide-caption{
+    padding-bottom: 120px;
+    
+  }
+  .about-section{
+    margin-top: 114px;
+  }
+  .section-title > span{
+    margin: 0 !important;
+  }
+  .fun-fact-grids .grid{
+    top: 0!important;
+    left: 0!important;
+    border-radius: 0 !important;
+  }
+  .fun-fact-content{
+    padding: 0 !important;
+    margin-left: 50px;
   }
 }
 

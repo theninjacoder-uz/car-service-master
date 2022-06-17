@@ -1,0 +1,74 @@
+{
+  "name": "Motonic",
+  "homepage": "http://motonic-react.hellloexpert.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.9.9",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/material": "^5.8.3",
+    "@mui/x-data-grid": "^5.12.1",
+    "@mui/x-data-grid-generator": "^5.12.1",
+    "@mui/x-date-pickers": "^5.0.0-alpha.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "animate-css-grid": "^1.4.3",
+    "antd": "^4.21.2",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.3.1",
+    "date-fns": "^2.28.0",
+    "imagesloaded": "^4.1.4",
+    "isotope-layout": "^3.0.6",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.0.0",
+    "react-countdown-now": "^2.1.2",
+    "react-dom": "^18.1.0",
+    "react-fancybox": "^0.2.5",
+    "react-fontawesome": "^1.7.1",
+    "react-modal-video": "^1.2.3",
+    "react-owl-carousel": "^2.3.1",
+    "react-particles-js": "^2.7.1",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "3.1.1",
+    "react-scroll": "^1.7.16",
+    "react-slick": "^0.25.2",
+    "react-sticky-header": "^0.2.0",
+    "reactjs-countdown": "0.0.8",
+    "reactstrap": "^8.2.0",
+    "recharts": "^2.1.10",
+    "slick-carousel": "^1.8.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
